@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 paths=(
 	'/home/coder/.deno/bin'
 	'/home/coder/.cargo/bin'
