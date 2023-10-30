@@ -1,5 +1,7 @@
 alias artisan="php artisan"
-alias artserv="php artisan serve --host=$(cat /etc/hostname)"
+if [ -f /etc/hostname ]; then
+	alias artserv="php artisan serve --host=$(cat /etc/hostname)"
+fi
 alias pyserv="python manage.py runserver"
 alias lgit="lazygit"
 
