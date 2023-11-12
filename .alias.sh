@@ -7,7 +7,7 @@ if [ -f /etc/hostname ]; then
 fi
 alias pyserv="python manage.py runserver"
 alias lgit="lazygit"
-alias phpunit="vendor/bin/phpunit"
+alias phpunit="vendor/bin/phpunit --colors=auto --testdox"
 alias pint="vendor/bin/pint"
 alias tb="vendor/bin/testbench"
 
